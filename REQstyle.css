@@ -1,0 +1,322 @@
+/*
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background-image: url('AQ4.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+}
+
+.logout {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logout a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.requirements-box {
+    background-color: rgba(44, 62, 80, 0.85); 
+    color: white;
+    padding: 20px;
+    width: 25%;
+    position: absolute;
+    top: 5%;
+    right: 0;
+    bottom: 5%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.requirements-box h2 {
+    margin-top: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+requirement s-box h3 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.requirements-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.requirements-box ul li {
+    margin: 10px 0;
+}
+
+.requirements-box ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.requirements-box ul li a:hover {
+    text-decoration: underline;
+}
+  
+
+
+
+
+
+
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('AQ.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.logout-container {
+    margin-right: 20px;
+}
+
+.logout-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background-color: #e53935;
+}
+
+h1 {
+    color: white;
+    margin-left: 20px;
+}
+
+.requirements-container {
+    display: flex;
+    justify-content: flex-end;
+    height: calc(100% - 80px);
+    padding: 20px;
+}
+
+.requirements-box {
+    background-color: rgba(10, 10, 13, 0.8); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    height: 80%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.requirements-box h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.requirements-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.requirements-box ul li {
+    color: white;
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('AQ7.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    overflow: hidden; 
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #040c13;
+    color: white;
+    padding: 8px 18px;
+    font-size: 18px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.logout {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.requirements-box {
+    background-color: #252525;
+    padding: 20px;
+    width: 300px;
+    height: 640px;
+    position: absolute;
+    top: 44px;
+    right: 1px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.requirements-box h2 {
+    text-align: center;
+    color: #fafafa;
+}
+
+.requirement {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.requirement a {
+    color: #004080;
+    text-decoration: Bold;
+}
+
+.requirement a:hover {
+    text-decoration: underline;
+}
+/*
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('AQ7.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    overflow: hidden; 
+}
+
+
+/*body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('AQ7.png'); /* Background image 
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161616;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.logout a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.requirements-container {
+   
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.requirement-button {
+    background-color: #555; 
+    color: #fff; 
+    padding: 10px 20px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.requirement-button:hover {
+
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-logo {
+    width: 100px;
+    height: auto;
+}
+
+
+
+
